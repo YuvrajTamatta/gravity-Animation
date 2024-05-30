@@ -9,7 +9,7 @@ h1{
     top: 40px;
     font-size: 40px;
     text-shadow: 2px 2px 5px yellow;
-    animation: name 3s ease-out 4s infinite;
+    animation: name 3s ease-out 2.5s infinite;
 }
 
 #main{
