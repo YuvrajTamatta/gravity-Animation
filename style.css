@@ -104,7 +104,7 @@ h1{
 
 }
 
-/* @keyframes updown {
+@keyframes updown {
     0%{
         transform: rotateX(50deg) translateY(0%);
     }
@@ -115,4 +115,4 @@ h1{
         transform: rotateX(50deg) translateY(0%);
     }
     
-} */
+}
