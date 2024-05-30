@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 h1{
-    color: azure;
+    color: rgb(14, 233, 233);
     position: absolute;
     top: 40px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px yellow;
+    animation: name 3s ease-out 4s infinite;
 }
 
 #main{
@@ -113,6 +116,18 @@ h1{
     }
     100%{
         transform: rotateX(50deg) translateY(0%);
+    }
+        
+}
+@keyframes name {
+    0%{
+        left: 500px;
+    }
+    50%{
+        left: 600px
+    }
+    100%{
+        left: 500px;
     }
     
 }
